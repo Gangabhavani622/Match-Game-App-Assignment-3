@@ -1,0 +1,27 @@
+.card-result {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.play-again-btn {
+  background-color: #cf60c8;
+  border-style: none;
+  padding: 4px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.trophy {
+  height: 30%;
+  width: 40%;
+}
+
+@media (max-width: 992px) {
+  .play-again-btn {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  }
+}
